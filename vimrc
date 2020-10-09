@@ -1,0 +1,52 @@
+hi User1 term=inverse,bold cterm=inverse,bold ctermfg=red
+set   number
+set relativenumber
+set autoindent
+set autowrite
+set bg=dark
+set bg=light
+set cindent
+set co=200
+set co=132
+set equalalways
+set noexpandtab
+set   expandtab
+set foldmethod=manual
+set gcr=n-v-c:block-Cursor/lCursor,ve:ver35-Cursor,o:hor50-Cursor,i-ci:ver25-Cursor/lCursor,r-cr:hor20-Cursor/lCursor,sm:block-Cursor-blinkwait175-blinkoff150-blinkon175
+set guifont=Courier_New:h6:cOEM
+set guifont=Lucida_Console:h8:w6:cOEM
+set guifont=Lucida_Console:h8:cOEM
+set guifont=Terminal:h6:cOEM
+set gfn=Courier\ 10\ Pitch\ 8
+"guioptions	list of flags that specify how the GUI works
+"set go=gmLt
+set guioptions-=gmrLtT
+set guioptions+=arh
+set guioptions=
+set guioptions=egimLtarh
+set   hlsearch
+set lines=30
+set lines=80
+set lines=100
+set lines=40
+set ls=1
+set matchpairs=(:),{:},[:],<:>
+set matchtime=5
+set mouse=
+set mousehide
+set   exrc
+set noignorecase
+set nohls
+set noincsearch
+set nomousefocus
+set   wrap
+set nowrapscan
+set printoptions=syntax:y,wrap:y,number:y,duplex:long,portrait:n,header:2
+set sbo=ver,jump
+set shiftwidth=2
+set showmatch
+set statusline=%<%t%=\ %p%%\ %m\ %n\ %r\ %-19(%3l,%02c%03V%)'%02b'
+set tabstop=2
+set terse
+set winaltkeys=no
+syntax enable
