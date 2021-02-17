@@ -15,6 +15,7 @@ filetype off            " disable filetype detection (but re-enable later, see b
 """" Basic Behavior
 
 set number              " show line numbers
+set relativenumber      " show relative line numbers
 set wrap                " wrap lines
 set encoding=utf-8      " set encoding to UTF-8 (default was "latin1")
 set mouse=a             " enable mouse support (might not work well on Mac OS X)
@@ -27,6 +28,8 @@ set visualbell          " blink cursor on error, instead of beeping
 
 
 """" Key Bindings
+
+:imap kj <Esc>
 
 " move vertically by visual line (don't skip wrapped lines)
 nmap j gj
